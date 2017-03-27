@@ -1,0 +1,70 @@
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+available git commands in 'D:\SOFT\Git\mingw32/libexec/git-core'
+
+  add                 fsck-objects        rebase--helper
+  add--interactive    gc                  receive-pack
+  am                  get-tar-commit-id   reflog
+  annotate            grep                remote
+  apply               gui                 remote-ext
+  archimport          gui--askpass        remote-fd
+  archive             gui--askyesno       remote-ftp
+  askpass             gui.tcl             remote-ftps
+  bisect              hash-object         remote-http
+  bisect--helper      help                remote-https
+  blame               http-backend        repack
+  branch              http-fetch          replace
+  bundle              http-push           request-pull
+  cat-file            imap-send           rerere
+  check-attr          index-pack          reset
+  check-ignore        init                rev-list
+  check-mailmap       init-db             rev-parse
+  check-ref-format    instaweb            revert
+  checkout            interpret-trailers  rm
+  checkout-index      log                 send-email
+  cherry              ls-files            send-pack
+  cherry-pick         ls-remote           sh-i18n--envsubst
+  citool              ls-tree             shortlog
+  clean               mailinfo            show
+  clone               mailsplit           show-branch
+  column              merge               show-index
+  commit              merge-base          show-ref
+  commit-tree         merge-file          stage
+  config              merge-index         stash
+  count-objects       merge-octopus       status
+  credential          merge-one-file      stripspace
+  credential-manager  merge-ours          submodule
+  credential-store    merge-recursive     submodule--helper
+  credential-wincred  merge-resolve       subtree
+  cvsexportcommit     merge-subtree       svn
+  cvsimport           merge-tree          symbolic-ref
+  cvsserver           mergetool           tag
+  daemon              mktag               unpack-file
+  describe            mktree              unpack-objects
+  diff                mv                  update-index
+  diff-files          name-rev            update-ref
+  diff-index          notes               update-server-info
+  diff-tree           p4                  upload-archive
+  difftool            pack-objects        upload-pack
+  difftool--helper    pack-redundant      var
+  fast-export         pack-refs           verify-commit
+  fast-import         patch-id            verify-pack
+  fetch               prune               verify-tag
+  fetch-pack          prune-packed        web--browse
+  filter-branch       pull                whatchanged
+  fmt-merge-msg       push                worktree
+  for-each-ref        quiltimport         write-tree
+  format-patch        read-tree
+  fsck                rebase
+
+git commands available from elsewhere on your $PATH
+
+  flow
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
